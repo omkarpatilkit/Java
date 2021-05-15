@@ -28,7 +28,7 @@ public class Constructor1 {
    public void setincome(){
        System.out.println("Give income info: ");
        income =  sc.nextInt();
-       sc.next();
+       sc.nextLine();
    }
 
     public void setCompany() {
