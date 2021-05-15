@@ -28,7 +28,9 @@ public class Constructor1 {
    public void setincome(){
        System.out.println("Give income info: ");
        income =  sc.nextInt();
-       sc.nextLine();
+       sc.nextLine(); // add this after every numerical input
+//       income = Integer.parseInt(sc.nextLine());  we can usee this also
+//       Parsing like this will be more effective
    }
 
     public void setCompany() {
