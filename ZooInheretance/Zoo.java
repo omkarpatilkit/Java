@@ -9,10 +9,12 @@ public class Zoo {
         
         Bird b = new Bird( 2, "Blue Bird", 1.3f );
         b.Fly();
+        b.Eating();
         b.DisplayInfo();
         
         Fish f = new Fish( 1, "Shark", 6.8f );
         f.Swim();
+        f.Sleep();
         f.DisplayInfo();
         
         
