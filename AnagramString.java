@@ -16,12 +16,8 @@ class CheckAnagramClass {
 
         for (int i = 0; i < arr.length; i++) {
             Count1[arr[i] - 'a']++;
-
-        }
-
-        for (int i = 0; i < brr.length; i++) {
-
             Count2[brr[i] - 'a']++;
+
         }
 
         for (int i = 0; i < 26; i++) {
